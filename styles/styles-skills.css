@@ -1,0 +1,141 @@
+body {
+  background: rgb(227, 218, 196);
+  /* #fff9d4; */
+  margin: 0;
+  padding: 0;
+}
+
+
+.skills-and-about {
+  display: flex;
+  flex-wrap: wrap;
+  direction: row;
+  justify-content: center;
+ align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+/* #skills-and-about-spacer {
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+#links-spacing {
+  
+  padding: 30;
+}
+
+#links-text {
+  color:rgb(169, 169, 169);
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-decoration: none;
+  
+}
+
+#links-text:hover {
+  color: seagreen;
+}
+
+#skills-circles-1 {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #fffce8;
+}
+
+#skills-circles-2 {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background-color:#ffeeab;
+}
+
+#skills-circles-3 {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background-color: #ffd4ab;
+}
+
+#skills-circles-4 {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background-color: #ffcbab;
+  /* margin: 50px; */
+}
+
+#skills-circles-5 {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  background-color:  #ffcbab
+}
+
+
+/* .skills {
+  display: flex;
+  direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+  margin: 30px;
+} */
+
+.skills-text {
+  display: flex;
+  direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+  margin: 30px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  /* 3vw; */
+  color: rgb(136, 136, 136);
+}
+
+#space-above-links {
+  /* margin-left: 40px; */
+  margin: 70px;
+}
+
+
+
+/* .about {
+  display: flex;
+  direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(136, 136, 136);
+  margin: 30px;
+} */
+
+
