@@ -1,20 +1,287 @@
-body {
-  background: #f4ebdc;
-  /* #fff9d4; */
-  margin: 0;
-  padding: 0;
+@media screen and (min-width: 601px) {
+  body {
+    background: #fffce8;
+    /* #f4ebdc; */
+    /* #fff9d4; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+
+  .portfolio-header-spacing {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .portfolio-header-text {
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(136, 136, 136);
+    margin-right: 30px;
+  }
+
+  .project-box-spacing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .project-box {
+    border-style: dotted;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    border-color: rgb(181, 181, 181);
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(232, 231, 219);
+  }
+
+  #hungry-logo {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hungry-logo-image {
+    margin-top: 15px;
+    height: 190px;
+    border-radius: 10px;
+  }
+
+  .project-header {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+  }
+
+  /* .spacer-header {
+    margin-left: 40px;
+    margin-right: 40px;
+  } */
+
+  .project-links {
+    display: flex;
+    direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+    font-size: 17px;
+  }
+
+  #portfolio-links-text {
+    color: rgb(104, 104, 104);
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-decoration: none;
+    margin: 10px;
+    /* margin-bottom: 20px; */
+
+    /* margin-bottom: 10px; */
+  }
+
+  #portfolio-links-text:hover {
+    color: seagreen;
+  }
+
+  .project-text {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
+  }
+
+  #links-display {
+    margin: 40px;
+  }
+
+  #links-spacing {
+    margin: 30;
+  }
+
+  #links-text {
+    color: rgb(169, 169, 169);
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+  #links-text:hover {
+    color: seagreen;
+  }
 }
 
-#links-display {
-  margin: 40px;
+@media screen and (max-width: 600px) {
+  body {
+    background: #fffce8;
+    /* #f4ebdc; */
+    /* #fff9d4; */
+    /* margin: 10px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .portfolio-header {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    margin: 40px;
+  }
+
+  .portfolio-header-text {
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(136, 136, 136);
+  }
+
+  .project-box-spacing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .project-box {
+    border-style: dotted;
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    border-color: rgb(181, 181, 181);
+    border-radius: 15px;
+    height: 520px;
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(232, 231, 219);
+  }
+
+  #hungry-logo {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px */
+  }
+
+  #hungry-logo-image {
+    margin-top: 10px;
+    height: 145px;
+    border-radius: 10px;
+  }
+
+  .project-header {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+  }
+
+  /* .spacer-header {
+    margin-left: 40px;
+    margin-right: 40px;
+  } */
+
+  .project-links {
+    display: flex;
+    direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+    font-size: 17px;
+  }
+
+  #portfolio-links-text {
+    color: rgb(104, 104, 104);
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-decoration: none;
+    margin: 10px;
+    /* margin-bottom: 20px; */
+
+    /* margin-bottom: 10px; */
+  }
+
+  #portfolio-links-text:hover {
+    color: seagreen;
+  }
+
+  .project-text {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
+  }
+
+  #links-display {
+    margin: 30px;
+  }
+
+  #links-spacing {
+    margin: 30;
+  }
+
+  #links-text {
+    color: rgb(169, 169, 169);
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+  #links-text:hover {
+    color: seagreen;
+  }
 }
+
+/* .portfolio-header {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(136, 136, 136);
+  margin-bottom: 20px
+} */
+
+/* #links-display {
+  margin: 40px;
+} */
 
 /* #links-spacing {
   
   margin: 30;
 } */
 
-#links-text {
+/* #links-text {
   color:rgb(169, 169, 169);
   font-family: Helvetica;
   font-weight: lighter;
@@ -36,17 +303,17 @@ body {
 
 #portfolio-links-text:hover {
   color: seagreen;
-}
+} */
 
-.portfolio {
-  /* display: flex; */
-  /* direction: column; */
-  /* justify-content: flex-start;
+/* .portfolio { */
+/* display: flex; */
+/* direction: column; */
+/* justify-content: flex-start;
   align-items: flex-start; */
-  min-height: 100vh;
-}
+/* min-height: 100vh;
+} */
 
-.portfolio-title-and-items {
+/* .portfolio-title-and-items {
   display: flex;
   flex-wrap: wrap;
   direction: column; 
@@ -55,16 +322,7 @@ body {
   
 }
 
-.portfolio-header {
-  display: flex;
-  direction: row;
-  justify-content: center;
-  font-size: 40px;
-  font-family: Helvetica, sans-serif;
-  font-weight: lighter;
-  color: rgb(136, 136, 136);
-  margin-bottom: 20px
-}
+
 
 .hungry {
   display: flex;
@@ -80,24 +338,21 @@ body {
   justify-content: center;
   align-items: center;
   margin: 50px
-}
-
-/* #hungry-logo-image {
- height: 100px;
 } */
-#hungry-logo-text {
-  height: 150px;
- }
 
-.portfolio-descriptions {
-  display: flex;
-  /* direction: row;
+/* #hungry-logo-text {
+  height: 150px;
+ } */
+
+/* .portfolio-descriptions {
+  display: flex; */
+/* direction: row;
   justify-content: center;
   align-items: center; */
-  font-size: 20px;
+/* font-size: 20px;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
-  color: rgb(136, 136, 136);
-  /* margin: 80px; */
-  width: 300px;
-}
+  color: rgb(136, 136, 136); */
+/* margin: 80px; */
+/* width: 300px;
+} */
