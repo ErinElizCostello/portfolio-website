@@ -54,6 +54,12 @@
     border-radius: 10px;
   }
 
+  #quizmaker-logo {
+    margin-top: 15px;
+    height: 190px;
+    border-radius: 10px;
+  }
+
   .project-header {
     display: flex;
     direction: row;
@@ -186,6 +192,7 @@
     height: 145px;
     border-radius: 10px;
   }
+
 
   .project-header {
     display: flex;
