@@ -54,12 +54,6 @@
     border-radius: 10px;
   }
 
-  #quizmaker-logo {
-    margin-top: 15px;
-    height: 190px;
-    border-radius: 10px;
-  }
-
   .project-header {
     display: flex;
     direction: row;
@@ -190,12 +184,6 @@
   #hungry-logo-image {
     margin-top: 10px;
     height: 145px;
-    border-radius: 10px;
-  }
-
-  #quizmaker-logo {
-    margin-top: 15px;
-    height: 190px;
     border-radius: 10px;
   }
 
